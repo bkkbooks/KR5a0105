@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0105/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0105/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清大洞真經玉訣音義
+  date: '2015-08-28 23:37:39.094091'
+  source:
+    repository: kanripo
+    path: KR5a0105
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0105_000-HFL.yaml, hash: 'sha256:2bcb6141951bdefe7b09622c4e74b8ed21fc4b71253f613e1bd3f9f2d0845444'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0105_000-HFL.markers.yaml, hash: 'sha256:9db91132c90c5ce77336004cca106afe2ef5c8f6faaba8c9c4179eb101eb89eb'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0105_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 5559
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:b1a4b7d6105bf23b8e20c1829caeb106778eb01b75ae0889058fff217e345c11
